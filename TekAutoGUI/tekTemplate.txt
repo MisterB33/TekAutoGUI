@@ -1,0 +1,19 @@
+Frequency                       & \textless{}100Khz                  & blah                                      & \color{green}Pass                      \\
+Clock High                      & \textgreater{}$4\mu $s             & blah                                      & \color{green}Pass                      \\
+Clock Low                       & \textgreater{}$4\mu $s             & blah                                      & \color{green}Pass                      \\
+$V_{Clock max}$                 & \textless{}3.57V                   & blah                                      & \color{green}Pass                      \\
+$V_{Clock min}$                 & \textgreater{}-.5V                 & blah                                      & \color{green}Pass                      \\
+$V_{Clock ih}$                  &  2.31-3.6V                         & blah                                      & \color{green}Pass                      \\
+$V_{Clock il}$                  & -.5-.99V                           & blah                                      & \color{green}Pass                      \\
+$V_{Data max}$                  & \textless{}3.57V                   & blah                                      & \color{green}Pass                      \\
+$V_{Data min}$                  & \textgreater{}-.5V                 & blah                                      & \color{green}Pass                      \\
+$V_{Data ih}$                   &  2.31-3.6V                         & blah                                      & \color{green}Pass                      \\
+$V_{Data il}$                   & -.5-.99V                           & blah                                      & \color{green}Pass                      \\
+Clock Rise Time                 &  \textless{}1000ns                 & blah                                      & \color{green}Pass                      \\
+Clock Fall Time                 &  \textless{}300ns                  & blah                                      & \color{green}Pass                      \\
+Data Rise Time                  &  \textless{}1000ns                 & blah                                      & \color{green}Pass                      \\
+Data Fall Time                  &  \textless{}300ns                  & blah                                      & \color{green}Pass                      \\
+Data Setup Time                 &  \textgreater{}250ns               & blah                                      & \color{green}Pass                      \\
+Data Hold time                  &  \textgreater{} 0ns                & blah                                      & \color{green}Pass                      \\
+Start Condition Hold Time       &  \textgreater{} 4$\mu$s            & blah                                      & \color{green}Pass                      \\
+Stop Condition Setup Time       &   \textgreater{} 4$\mu$s           & blah                                      & \color{green}Pass                      \\  

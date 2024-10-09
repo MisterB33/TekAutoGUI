@@ -1,0 +1,35 @@
+\nonstopmode
+\documentclass[12pt, letter]{article}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[letter, margin=1in]{geometry}
+\usepackage{wallpaper,graphicx} % Required for inserting images
+\usepackage[firstpage=true, placement=top, opacity=1, scale=1]{background}
+\usepackage{pdfpages}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{white}{RGB}{255,255,255}
+\begin{document}
+\begin{textblock*}{12cm}(0.25cm,0cm) % {block width} (coords) 
+   \color{white}
+   \begin{sffamily}
+    \begin{flushleft}
+        \LARGE\textbf{Moonstone Hardware I2C 3.0 PMBUS Test Report Results}
+   \end{flushleft}
+   \end{sffamily}
+\end{textblock*}
+
+\begin{textblock*}{12cm}(.25cm,5.5cm)
+\begin{flushleft}
+    \begin{sffamily}
+        \large\textbf{R4028-M1015-01 \break
+        Version: 1.0 \break 
+        May 7, 2024 \break}
+    \end{sffamily}
+\end{flushleft}
+\end{textblock*}
+\vspace*{-5 cm}
+\TileWallPaper{\paperwidth}{\paperheight}{CelesticaFirstPage.pdf}
+
+\newpage
+\TileWallPaper{\paperwidth}{\paperheight}{CelesticaNextPages.pdf}
+\color{black}\tableofcontents
